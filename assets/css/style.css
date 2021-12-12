@@ -102,3 +102,25 @@ header nav ul li a {
         padding: 10px 20px;
         font-size: 16px;
       }
+
+      .intro {
+        text-align: center;
+      }
+
+      .intro h2 {
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        border-bottom: 3px solid;
+        border-color: #fce138;
+        display: inline-block;          /* Prevents default block elements for the <h2> tag so yellow line doesnt reach entire width of page */
+      }
+
+      .intro p {
+        line-height: 1.7;        /* Height of each line in px */
+        color: #39a6b2;
+        width: 80%;             
+        font-size: 20px;
+        margin: 0 auto;        /* Top and bottom margin is 0, left and right margin= browser calculates margin for us */
+      }
