@@ -194,7 +194,6 @@ header nav ul li a {
         margin: 50px auto;
         padding-bottom: 50px;
         width: 80%;
-        border-bottom: 1px solid #39a6b2;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -219,6 +218,10 @@ header nav ul li a {
 
       .step-text {
         flex: 12;
+      }
+
+      .step:not(:last-child) {
+        border-bottom: 1px solid #39a6b2;
       }
 
       .trainer {
@@ -346,6 +349,32 @@ header nav ul li a {
 
       .flex-row p {
         color: #024e76;
+      }
+
+      header nav ul li a:hover {
+        background: #fce138;
+        color: #024e76;
+        border-radius: 15px;
+        text-shadow: none;
+      }
+      
+      .hero-form button:hover {
+        background-color: #39a6b2;  
+      }
+      
+      .contact-form button:hover {
+        color: #fce138;
+        background: #39a6b2;
+      }
+
+      .contact-form input, .contact-form textarea {
+        background-color: rgba(255,255,255,0.75);
+        
+      }
+
+      .contact-form input:focus, .contact-form textarea:focus {
+        background-color: rgba(255,255,255,1);
+        outline: none;
       }
 
       /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
